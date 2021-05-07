@@ -1,0 +1,253 @@
+html,body{
+	height:720px;
+	min-height: 720px;
+	min-width:490px;
+	/* background-image: url('img/background.jpg'); */
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin:0px;
+	font-family: "verdana";
+	position: relative;
+}
+.allPane{
+	width:480px;
+	height:710px;
+	border-width: 6px;
+	border-style: solid;
+	border-color:grey;
+	margin:0 auto;
+}
+.top_header{
+	width:100%;
+	height:14%;
+}
+.top_box{
+	width:90%;
+	height:100%;
+	margin:0 auto;
+}
+.top_part_box{
+	width:25%;
+	height:100%;
+	float: left;
+}
+#text1{
+	color:#E85020;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-left: 45%;
+	margin-top:18%;
+	display: block;
+}
+#text2{
+	margin-left: 25%;
+	font-size: 1.2em;
+	margin-top:1%;
+	letter-spacing: 0.04em;
+	display: block;
+}
+.header{
+	width:100%;
+	height: 5.8%;
+	margin-top:0%;
+	background-color: #FFE5DE;
+}
+#text3{
+	display: inline-block;
+	margin-left: 28.5%;
+	padding-top: 1.4%;
+	font-size: 1.22em;
+	color:#E85020;
+}
+#triangle{
+	width:4%;
+	height:4%;
+	margin-left: 9%;
+	background-image: url("img/triangle.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.medium_up{
+	width:100%;
+	height:10%;
+	margin:0px;
+}
+.medium_up_box{
+	width:93.1%;
+	margin-left:6.9%;
+	height:75%;
+}
+#text4{
+	display:inline-block;
+	font-size: 1.2em;
+	padding-top:5.8%;
+	margin-left:1.7%;
+	margin-right:8.2%;
+}
+.medium_up hr{
+	width:11%;
+	margin-top:0.5%;
+	margin-left:43.5%;
+}
+.medium_down{
+	margin-left:4.7%;
+	width:95%;
+	height:15.16%;
+}
+.medium_down_box1{
+	width:100%;
+	height:40%;
+}
+.medium_down_box2{
+	width:100%;
+	height:60%;
+}
+#text5{
+	display: inline-block;
+	font-size:1.16em;
+	letter-spacing: 0em;
+}
+#text5_1{
+	display: inline-block;
+	font-size:1.17em;
+	letter-spacing: 0.05em;
+}
+.medium_down_box1 #text5,.medium_down_box1 #text5_1{
+	margin-top:2.9%;
+	color:#D34E2E;
+	margin-right:10.5%;
+}
+.medium_down_box2 #text5,.medium_down_box2 #text5_1{
+	margin-top:2.1%;
+	letter-spacing: 0.06em;
+	margin-right: 15%;
+}
+.main{
+	width:100%;
+	height:55.04%;
+}
+.main_up{
+	width:99%;
+	height:32%;
+	margin:0 auto;
+}
+.main_down{
+	width: 97.5%;
+	height:65%;
+	margin:0 auto;
+	border-style:solid;
+	border-left-width: 3px;
+	border-right-width:3px;
+	border-bottom-width: 3px;
+	border-top-width: 0px;
+	border-color:#E85020;
+}
+.main_up_box{
+	width:24%;
+	height:97%;
+	border:0px solid grey;
+	border-width: 2px;
+	border-bottom-color: #E85020;
+	float:left;
+	border-right-width: 3px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#main_up_box1{
+	width:23.5%;
+	height:97%;
+	border:0px solid #E85020;
+	border-width: 3px;
+	border-bottom-width: 0px;
+	background-image:url("img/main_up_bg1.png");
+}
+#main_up_box2{
+	background-image:url("img/main_up_bg2.png");
+	border-left-color: #E85020;
+}
+#main_up_box3{
+	background-image:url("img/main_up_bg3.png");
+}
+#main_up_box4{
+	background-image:url("img/main_up_bg4.png");
+}
+.main_medium{
+	height:18%;
+	width:98%;
+	margin:0 auto;
+}
+#main_medium_1,#main_medium_2{
+	display: inline-block;
+	margin-top:3.1%;
+	font-size: 1.17em;
+	letter-spacing: 0.05em;
+}
+#main_medium_1{
+	margin-left: 7.7%;
+}
+#main_medium_2{
+	margin-left:7.15%;
+}
+.main_table{
+	width:98%;
+	height:35%;
+	margin:0 auto;
+	margin-top:2%;
+}
+.input_text{
+	display: block;
+	margin-left: 4%;
+	width:66%;
+	height:40%;
+}
+#input_text_1{
+	font-size: 1.22em;
+	text-indent: 0.3em;
+	padding-top: 0.6%;
+}
+#input_text_2{
+	font-size: 1.22em;
+	text-indent: 0.3em;
+	padding-bottom:0;
+}
+.main_bottom_1{
+	width:98%;
+	height:15%;
+	margin:0 auto;
+}
+#text6{
+	display:inline-block;
+	margin-top: 1%;
+	font-size:1.22em;
+	margin-left:5.38%;
+}
+#text7{
+	display: inline-block;
+	font-size:1.22em;
+	font-weight: bold;
+	color:#E85020;
+}
+.main_bottom_2{
+	width:98%;
+	height:32%;
+	margin:0 auto;
+	margin-top:0%;
+}
+#main_bottom_box{
+	width:23.7%;
+	height:57%;
+	margin-left: 4.4%;
+	margin-top:0.7%;
+	text-align: center;
+	border-radius: 5%;
+	background-color: #FC451E;
+}
+#main_bottom_box span{
+	display: inline-block;
+	font-size: 1.25em;
+	margin-top:8%;
+	margin-left:-2%;
+	font-weight: bold;
+	color:white;
+}

@@ -1,0 +1,340 @@
+html,body{
+	width:100%;
+	height:100%;
+	min-width: 1000px;
+	min-height: 500px;
+}
+body{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+}
+.g-main{
+	width:834.3px;
+	height:70%;
+	margin:0 auto;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+hr{
+	border-top: 4px solid #2589c2;
+}
+.m-header h3{
+	background-color:#2589c2;
+	color:white;
+	text-align: center;
+	font-size: 1.3em;
+}
+.m-header .ui-grid-1{
+	margin-right:0;
+	margin-bottom:0;
+}
+.m-header .ui-grid-2{
+	margin-bottom:0;
+}
+.font-box{
+	background-color: #f76f49;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 20px;
+    font-size: 1.3em;
+}
+.date-box{
+	margin-top:-2px;
+	color: #3F5DD0;
+	border: 1px solid #b2b2b2;
+	float: right;
+	text-align: center;
+	background-color: #F8F8F8;
+	font-size:1em;
+}
+.date-box span::before{
+	content: "";
+	display: inline-block;
+	background-image: url(../img/battery-icon.png);
+	width:20px;
+	height:12px;
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.m-top{
+	background-color:#FBFCFC;
+	padding:0px 10px 0px 10px;
+	border:1px solid lightgrey;
+	border-top-width: 0px;
+}
+.m-top-date{
+	color:#F20000;
+	font-size:1.3em;
+	font-weight: bold;
+}
+.m-top .ui-grid-5 span,.m-top-needTime,.m-top-takeTime{
+	font-size: 1.1em;
+}
+.m-top .ui-grid-5 span:nth-child(2),.m-top-needTime span:nth-child(2),.m-top-change span:nth-child(2){
+	color:#F20000;
+	font-weight: bold;
+}
+.m-top-takeTime>span:nth-child(2){
+	font-weight:bold;
+}
+.m-topp{
+	background-color:#FFFBDE;
+	margin-right:0px;
+	border:1px solid lightgrey;
+	border-top-width: 0px;
+	padding-top:5px;
+	margin-bottom:7px;
+}
+.m-topp span{
+	text-align: center;
+	text-decoration: underline;
+	color:blue;
+}
+.m-topp .ui-grid-2{
+	float:right;
+}
+#text-icon::before{
+	content: "";
+	display: inline-block;
+	background-image: url(../img/text-icon.png);
+	width:12px;
+	height:12px;
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+#print-icon::before{
+	content: "";
+	display: inline-block;
+	background-image: url(../img/print-icon.png);
+	width:12px;
+	height:12px;
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.mav{
+	margin-bottom:0px;
+}
+.m-nav>.ui-grid-10,.m-nav>.ui-grid-3{
+	border-right:1px solid white;
+	background-color:#C9DDE9;
+	margin-right:0px;
+	font-size: 1.1em;
+	text-align: center;	
+	margin-bottom:0px;
+}
+.train-1{
+	background-color:#F2F2F2;
+	margin:0px 0px 0px 0px;
+	border:1px solid lightgrey;
+	border-top-width: 0px;
+}
+.train-1>.ui-grid-7{
+	font-size:1.3em;	
+	text-align: center;
+	margin-bottom:0px;
+}
+.train-1>.ui-grid-7>span>strong::before{
+	content: "";
+	display: inline-block;
+	background-image: url(../img/snow-icon.png);
+	width:12px;
+	height:12px;
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.train-1>.ui-grid-7>span::before{
+	content: "";
+	display: inline-block;
+	background-image: url(../img/sun-icon.png);
+	width:12px;
+	height:12px;
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.train-1>.ui-grid-2{
+	float:right;
+	font-size: 1em;
+	text-decoration: underline;
+	margin-bottom:0px;
+	text-align: center;
+	color:#0028C2;
+}
+.info-1{
+	margin-right:0px;
+	margin-bottom:0px;
+	height:39.91px;
+}
+.info-1>.ui-grid-3>span{
+	display: block;
+}
+.info-1>.ui-grid-3>span:nth-child(2){
+	font-weight: normal;
+}
+.info-1>.ui-grid-2{
+	color:#B2761E;
+	font-size: 1.5em;
+	font-weight: bolder;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom:3px;
+	border-left:2px solid #7DC8DA;
+}
+.info-1>.ui-grid-2>span::before{
+	content: "";
+	display: inline-block;
+	background-image: url(../img/bus-icon.png);
+	width:12px;
+	height:12px;
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.info-1>.ui-grid-4{
+	padding-top:5px;
+	color:#036BA7;
+	font-weight: bold;
+}
+.info-1>.ui-grid-1{
+	border-right:1px solid lightgrey;
+	padding-right:3px;
+	height:100%;
+	margin-right: 0px;
+}
+.info-1>.ui-grid-3{
+	border-right:1px solid lightgrey;
+	padding-top:10px;
+	height:29.91px;
+	width:110px;
+	margin-right:0px;
+	text-align: center;
+	font-weight: bold;
+}
+.info-1>.ui-grid-3:nth-child(1){
+	padding-top:5px;
+	text-align: center;
+	border-right:2px solid #7DC8DA;
+	margin-right:3px;
+	height:auto;
+}
+.info-1>.ui-grid-2,.info-1>.ui-grid-3,.info-1>.ui-grid-4,.info-1>.ui-grid-1{
+	margin-bottom:0px;
+}
+.train-2{
+	background-color:#F2F2F2;
+	padding-top:10px;
+	margin-right:0px;
+	border:1px solid lightgrey;
+}
+.train-2>.ui-grid-3,.train-2>.ui-grid-7{
+	margin-right:0px;
+}
+.train-2>.ui-grid-7{
+	margin-left:10px;
+}
+.train-2>.ui-grid-3{
+	text-align: center;
+	font-weight: bold;
+}
+.train2-address>span{
+	font-weight: bolder;
+	font-size: 1.3em;
+}
+.train2-address>span::before{
+	content: "";
+	display: inline-block;
+	background-image: url(../img/snow-icon.png);
+	width:12px;
+	height:12px;
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.train-2>.ui-grid-5{
+	float:right;
+	margin-bottom: 0px;
+}
+.train-2>.ui-grid-5>span{
+	float:right;
+	color:#0028C2;
+	text-decoration: underline;
+	margin-right: 7px;
+}
+.info-2>.ui-grid-2{
+	color:#039BFF;
+}
+.info-2>.ui-grid-2>span::before{
+	content: "";
+	display: inline-block;
+	background-image: url(../img/train-icon.png);
+	width:12px;
+	height:12px;
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.info-2>.ui-grid-3:nth-child(8){
+	margin-right: 0px;
+	border-width: 0px;
+}
+.info-2>.ui-grid-3:nth-child(7){
+	padding-top:3px;
+}
+.info-2>.ui-grid-4>span{
+	display: block;
+}
+.info-2>.ui-grid-4>span:nth-child(1){
+	text-decoration: underline;
+}
+.info-2>.ui-grid-4>span:nth-child(2){
+	background-color: #00469A;
+	color:white;
+	border-radius:5px;
+	text-indent: 4px;
+
+}
+.train-3{
+	background-color:#F2F2F2;
+	margin:0px 0px 0px 0px;
+	border:1px solid lightgrey;
+}
+.train-3>.ui-grid-10{
+	font-size:1.3em;	
+	text-indent:80px;
+	margin-bottom:0px;
+	margin-right:0px;
+	padding-top:5px;
+}
+.train-3>.ui-grid-10>span>strong::before{
+	content: "";
+	display: inline-block;
+	background-image: url(../img/snow-icon.png);
+	width:15px;
+	height:12px;
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.train-3>.ui-grid-10>span::before{
+	content: "";
+	display: inline-block;
+	background-image: url(../img/cloudy-icon.png);
+	width:20px;
+	height:12px;
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.train-3>.ui-grid-3{
+	padding-top:10px;
+	text-align: center;
+	font-weight: bold;
+}
+.train-3>.ui-grid-4{
+	float:right;
+	margin-bottom: 0px;
+}
+.train-3>.ui-grid-4>span{
+	float:right;
+	color:#0028C2;
+	text-decoration: underline;
+	margin-right: 7px;
+}
